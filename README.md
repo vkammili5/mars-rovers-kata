@@ -38,3 +38,27 @@ orientation).
 # Second Line of Input to a Rover
 
 A string of letters representing the instructions to move the Rover around the Plateau.
+
+#Movement Rules
+
+Rovers move sequentially, this means that the first Rover needs to finish moving first before the next one can move.
+
+# Output
+
+For each Rover, the output represents its final position (final coordinates and where it is facing).
+
+# Some example test cases :
+
+Lines of Input to the Program:
+
+5 5
+1 2 N
+LMLMLMLMM
+3 3 E
+MMRMMRMRRM
+
+Expected Output:
+
+1 3 N
+5 1 E
+
